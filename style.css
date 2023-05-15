@@ -178,6 +178,6 @@ h2 {
 }
 .summary-arrow {
     position: absolute;
-    top: 925px;
-    left: 500px;
+    margin-top: 180px;
+    margin-left: 90px;
 }
