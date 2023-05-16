@@ -121,11 +121,23 @@ h1 {
 }
 .welcome-arrow {
     margin-top: 25px;
+    cursor: pointer;
 }
 .welcome-arrow img {
     width: 60px;
 }
 
+.arrow-fixed img{
+    width: 60px;
+    transform: rotate(180deg);
+}
+.arrow-fixed {
+    position: fixed;
+    bottom:50px;
+    right:350px;
+    cursor: pointer;
+    z-index: 2;
+}
 
 
 
