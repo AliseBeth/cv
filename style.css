@@ -127,6 +127,9 @@ h1 {
 }
 
 
+
+
+
 .summary {
     background-color: #EEEEEE;
 }
@@ -136,6 +139,7 @@ h1 {
     width: 1280px;
     margin-left: auto;
     margin-right: auto;
+    background-color: #EEEEEE;
 }
 .paint-pic img{
     width: 1280px;
@@ -187,16 +191,19 @@ h2 {
 
 .skills {
     background-color: #EEEEEE;
-}
-.skills-cover {
     width: 1280px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+.skills-cover {
     display: flex;
     justify-content: space-between;
     width: 980px;
     padding-top: 140px;
     padding-bottom: 100px;
+    background-color: #EEEEEE;
 }
 .skills-content {
     background-color: #DADADA;
@@ -246,6 +253,7 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     font-family: 'Bellota Text', Arial, sans-serif;
     font-size: 22px;
 }
@@ -300,7 +308,9 @@ h3 {
     padding: 30px;
     font-family: 'Bellota Text', Arial, sans-serif;
 }
-.projects-cover h2 {
+.projects-head {
+    display: flex;
+    align-items: center;
     margin-top: 10px;
 }
 .project-pics img {
@@ -420,6 +430,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #000000;
 }
 .footer-cover p {
     font-family: 'Bellota Text', Arial, sans-serif;
