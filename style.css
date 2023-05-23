@@ -25,7 +25,7 @@ time, mark, audio, video {
 }
 
 .header {
-    width: 65vw;
+    width: 70vw;
     margin-left: auto;
     margin-right: auto;
 }
@@ -39,7 +39,7 @@ time, mark, audio, video {
     margin-right: auto;
     padding: 2vw 2vw 1vw;
     background-color: rgb(255, 255, 255);
-    width: 60vw;
+    width: 65vw;
 }
 .nav-cover {
     display: flex;
@@ -131,21 +131,22 @@ time, mark, audio, video {
 
 
 .welcome {
-    width: 65vw;
+    width: 70vw;
     height: 100vh;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     justify-content: space-between;
+    min-height: 35vw;
 }
 .welcome-cover {
     background-color: rgb(255, 255, 255);
-    padding: 5vw 3vw 1vw;
+    padding: 5vw 0vw 1vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 60vw;
+    width: 70vw;
     height: 80vh;
     
 }
@@ -170,7 +171,7 @@ time, mark, audio, video {
     display: flex;
     align-items: center;
     font-family: 'Bellota Text', Arial, sans-serif;
-    font-size: 1vw;
+    font-size: 1.3vw;
     margin-top: 0.5vw;
     margin-bottom: 0.5vw;
 }
@@ -202,6 +203,7 @@ h1 {
 }
 .welcome-arrow img {
     width: 4vw;
+    margin-top: 3vh;
 }
 
 @media (min-width: 769px) and (max-width: 1279px){
@@ -226,10 +228,10 @@ h1 {
     }
     .welcome {
         min-height: 65vw;
+        width: 100vw;
     }
     .welcome-content {
-        width: 100vw;
-        margin-top: 1vh;
+        width: 90vw;
     }
     .welcome-title p {
         font-size: 25px;
@@ -243,13 +245,7 @@ h1 {
         margin-left: 8vw;
     }
     .welcome-cover {
-        background-color: rgb(255, 255, 255);
-        padding: 5vw 3vw 1vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        width: 60vw;
+        width: 100vw;
         height: 90vh; 
     }
     .welcome-arrow img {
