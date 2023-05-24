@@ -127,6 +127,9 @@ nav {
         opacity: 70%;
         transition: 1s;
     }
+    .arrow-fixed img{
+        width: 8vw;
+    }
 }
 
 @media (min-width: 300px) and (max-width: 767px){
