@@ -132,16 +132,10 @@ nav {
 @media (min-width: 300px) and (max-width: 767px){
     .burger {
         display: flex;
-        width: 4vw;
+        width: 8vw;
     }
     .nav-cover {
         display: none;
-    }
-    .header-cover {
-        width: 90vw;
-        padding: 3vw 0vw;
-        font-size: 2vw;
-        height: 6vw;
     }
     .header {
         width: 90vw;
@@ -149,8 +143,8 @@ nav {
         margin-right: auto;
     }
     .header-cover {
-        font-size: 3vw;
-        padding: 2vw 2vw 1vw;
+        font-size: 4vw;
+        padding: 3vw 2vw 3vw;
         background-color: rgb(255, 255, 255);
         width: 90vw;
     }
@@ -321,7 +315,7 @@ h1 {
     .welcome {
         min-height: 150vw;
         width: 100vw;
-        height: 100vh;
+        height: 95vh;
     }
     .welcome-content {
         width: 90vw;
@@ -344,7 +338,7 @@ h1 {
     }
     .welcome-cover {
         width: 100vw;
-        height: 100vh;
+        height: 95vh;
         justify-content: space-between;
         min-height: 150vw;
         padding: 0;
