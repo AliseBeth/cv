@@ -745,12 +745,12 @@ h3 {
 }
 @media (hover: none) and (min-width: 300px) and (max-width: 767px){
   .projects-one:hover .project-pics img {
-    filter: grayscale(100%);
+    filter: grayscale(0%);
     width: 61vw;
 }}
 @media (hover: none) and (min-width: 768px) and (max-width: 1279px){
     .projects-one:hover .project-pics img {
-      filter: grayscale(100%);
+      filter: grayscale(0%);
       width: 30vw;
   }}
 
@@ -760,7 +760,7 @@ h3 {
 }
 @media (hover: none) {
   .project-git:hover .cat img {
-    filter: grayscale(100%);
+    filter: grayscale(0%);
     transition: 0s;
 }}
 .projects-content .projects-one:nth-child(1) {
