@@ -74,9 +74,7 @@ nav {
 .nav-different-lang:hover {
     border-bottom: #000000 solid 1px;
 }
-@media (hover: none) {
-  .nav-different-lang:hover { border-bottom: none; }
-}
+
 .nav-different-lang{
     cursor: pointer; 
 }
@@ -101,16 +99,18 @@ nav {
     opacity: 100%;
     transition: 1s;
 }
-@media (hover: none) {
-  .arrow-fixed:hover { opacity: 100%;
-    transition: 1s; }
-}
+
+
 .arrow-fixed:active {
     filter: invert(100%);
     transition: 0s;
 }
 
 @media (min-width: 768px) and (max-width: 1279px){
+    .nav-different-lang:hover { border-bottom: none; }
+
+    .arrow-fixed:hover { opacity: 100%;
+        transition: 1s; }
     .header {
         width: 100vw;
     }
@@ -140,6 +140,10 @@ nav {
 }
 
 @media (min-width: 300px) and (max-width: 767px){
+    .nav-different-lang:hover { border-bottom: none; }
+
+    .arrow-fixed:hover { opacity: 100%;
+        transition: 1s; }
     .burger {
         display: flex;
         width: 8vw;
@@ -743,26 +747,12 @@ h3 {
     filter: grayscale(0%);
     width: 295px;
 }
-@media (hover: none) and (min-width: 300px) and (max-width: 767px){
-  .projects-one:hover .project-pics img {
-    filter: grayscale(0%);
-    width: 61vw;
-}}
-@media (hover: none) and (min-width: 768px) and (max-width: 1279px){
-    .projects-one:hover .project-pics img {
-      filter: grayscale(0%);
-      width: 30vw;
-  }}
 
 .project-git:hover .cat img {
     filter: grayscale(0%);
     transition: 1s;
 }
-@media (hover: none) {
-  .project-git:hover .cat img {
-    filter: grayscale(0%);
-    transition: 0s;
-}}
+
 .projects-content .projects-one:nth-child(1) {
     margin-left: 150px;
 }
@@ -796,6 +786,14 @@ h4 {
 }
 
 @media (min-width: 768px) and (max-width: 1279px){
+    .project-git:hover .cat img {
+        filter: grayscale(0%);
+        transition: 0s;
+    }
+    .projects-one:hover .project-pics img {
+        filter: grayscale(0%);
+        width: 30vw;
+    }
     .projects {
         width: 100vw;
     }
@@ -835,6 +833,14 @@ h4 {
     }
 }
 @media (min-width: 300px) and (max-width: 767px){
+    .project-git:hover .cat img {
+        filter: grayscale(0%);
+        transition: 0s;
+    }
+    .projects-one:hover .project-pics img {
+        filter: grayscale(0%);
+        width: 61vw;
+    }
     .projects {
         width: 100vw;
     }
