@@ -422,7 +422,7 @@ h2 {
 }
 .summary-arrow {
     position: absolute;
-    margin-top: 180px;
+    margin-top: 190px;
     margin-left: 90px;
 }
 
@@ -465,7 +465,7 @@ h2 {
         height: 60vw;
         margin-top: 8vw;
         font-family: 'Bellota Text', Arial, sans-serif;
-        font-size: 5vw;
+        font-size: 4vw;
         margin-bottom: 12vw;
         margin-top: 8vw;
     }
@@ -478,7 +478,7 @@ h2 {
     .summary-arrow {
         position: absolute;
         margin-left: 3vw;
-        margin-top: 75vw;
+        margin-top: 55vw;
     }
     h2 {
         font-size: 27px;
@@ -570,7 +570,7 @@ h2 {
 @media (max-width: 767px){
     .skills-cover {
         width: 80vw;
-        padding: 12vw 4vw 2vw;
+        padding: 5vw 4vw 2vw;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -771,7 +771,7 @@ h4 {
 }
 .projects-one p {
     width: 235px;
-    height: 95px;
+    height: 120px;
     margin: 5px 0;
 }
 .projects-one-stack p{
@@ -825,7 +825,7 @@ h4 {
         width: 27vw;
     }
     .project-one-text {
-        margin-left: 20px;
+        margin-left: 15px;
         width: 25vw;
     }
     .projects-one a {
@@ -945,7 +945,8 @@ h4 {
     justify-content: space-between;
 }
 .education-body h3{
-    width: 490px;
+    width: 570px;
+    margin-bottom: 10px;
 }
 .education-body div p:nth-child(2) {
     color: #404040;
@@ -1022,7 +1023,7 @@ footer {
 }
 .footer-cover p {
     font-family: 'Bellota Text', Arial, sans-serif;
-    font-size: 22px;
+    font-size: 18px;
     color: #DADADA;
 }
 
