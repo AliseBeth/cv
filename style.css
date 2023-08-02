@@ -518,6 +518,7 @@ h2 {
     display: flex;
     flex-direction: column;
 }
+
 .skills-content h2 {
     transform: rotate(3deg); 
     display: flex;
@@ -530,7 +531,7 @@ h2 {
     list-style: none;
     transform: rotate(3deg); 
     display: flex;
-    margin-left: 40px;
+    margin-left: 20px;
     font-family: 'Bellota Text', Arial, sans-serif;
     font-size: 18px;
     margin-top: 5px;
@@ -547,11 +548,11 @@ h2 {
 
 @media (min-width: 768px) and (max-width: 1279px){
     .skills-cover {
-        width: 80vw;
-        padding: 12vw 4vw 2vw;
+        width: 85vw;
+        padding: 12vw 6vw 2vw;
     }
     .skills-content {
-        width: 23vw;
+        width: 26vw;
         height: 30vw;
     }
     .skills-content h2 {
@@ -566,6 +567,11 @@ h2 {
         margin-top: 0vw;
         text-align: left; 
     }
+    .skills-content.rus-ver ul li{
+        font-size: 1.7vw;
+        margin-left: 1.5vw;
+    }
+    
 }
 @media (max-width: 767px){
     .skills-cover {
@@ -579,6 +585,11 @@ h2 {
         width: 50vw;
         height: 50vw;
         margin-bottom: 9vw;
+    }
+    .skills-content.rus-ver ul li{
+        font-size: 3vw;
+        margin-left: 4vw;
+        margin-top: 1.5vw;
     }
     .skills-content h2 {
         margin-top: 3vw;
