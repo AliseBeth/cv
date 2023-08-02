@@ -481,7 +481,7 @@ h2 {
         margin-top: 55vw;
     }
     h2 {
-        font-size: 27px;
+        font-size: 7vw;
         font-family: 'Alegreya Sans', Helvetica, sans-serif;
         font-weight: 700;
         margin: 0 15px;
@@ -672,21 +672,30 @@ h3 {
         width: 70vw;
         margin-bottom: 55px;
     }
+    
 }
 @media (max-width: 767px){
     .experience {
         width: 100vw;
     }
-    .experience-cover {
-        font-size: 20px;
+    
+    .experience-content {
+        font-size: 5vw;
     }
+
     h3 {
-        font-size: 23px;
+        font-size: 6vw;
     }
     .experience-body {
         width: 80vw;
 
         margin-bottom: 55px;
+    }
+    .experience-body p {
+        font-size: 4vw;
+    }
+    .experience-body .experience-content p{
+        font-size: 5vw;
     }
 }
 
@@ -960,11 +969,12 @@ h4 {
 }
 .education-body h3{
     width: 570px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .education-body div p:nth-child(2) {
     color: #404040;
     font-size: 20px;
+    margin-bottom: 10px;
 }
 .education-body li {
     margin-left: 55px;
@@ -972,6 +982,7 @@ h4 {
 .education-body span {
     font-weight: 900;
 }
+
 
 
 @media (min-width: 768px) and (max-width: 1279px){
@@ -987,14 +998,13 @@ h4 {
         width: 37vw; 
     }
     .education-body div {
-        margin-left: 2vw;
-        margin-left: 2vw;
+        
     }
 }
 @media (max-width: 767px){
     .education-cover {
         width: 100vw;
-        font-size: 20px;
+        font-size: 5vw;
         padding-bottom: 4vw;
     }
     .education-body {
@@ -1006,8 +1016,7 @@ h4 {
         width: 80vw; 
     }
     .education-body div {
-        margin-left: 2vw;
-        margin-left: 2vw;
+        
         margin-bottom: 5vw;
         width: 75vw; 
     }
@@ -1017,6 +1026,10 @@ h4 {
     .education-head {
         margin-bottom: 7vw;
     }
+    .education-body div p:nth-child(2) {
+        font-size: 5vw;
+    }
+    
 }
 
 
