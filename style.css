@@ -591,6 +591,9 @@ h2 {
         margin-left: 4vw;
         margin-top: 1.5vw;
     }
+    .skills-content.en-ver ul li {
+        margin-left: 3vw;
+    }
     .skills-content h2 {
         margin-top: 3vw;
         margin-bottom: 2vw;
